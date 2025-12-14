@@ -103,10 +103,10 @@ Data processing:
 
 <img width="865" height="356" alt="image" src="https://github.com/user-attachments/assets/bc95d365-cb43-40d7-ad83-a4a1169aaeba" />
 
--No dimensionality processing：
-Accuracy_train:0.699077
-Accuracy_test:0.690382
-Time cost: :	0.28s
+#### No dimensionality processing：
+-Accuracy_train:0.699077
+-Accuracy_test:0.690382
+-Time cost: :	0.28s
 
 
 
