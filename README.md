@@ -149,7 +149,7 @@ Time cost： :	0.03s
 ```bash
 pip install numpy pandas scikit-learn matplotlib
 
-Game outcomes prediction results will be stored in the `prediction_results` folder, saved in CSV format.
+- Game outcomes prediction results will be stored in the `prediction_results` folder, saved in CSV format.
 
 
 
