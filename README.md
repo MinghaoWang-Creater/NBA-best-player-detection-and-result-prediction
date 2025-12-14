@@ -22,7 +22,9 @@ This repository contains a machine-learning project (Project: **NBA statistics d
 
 ## 1. Project Overview
 
-NBA provides rich historical statistics for players and teams. We can obtain dataset from the **website basketball-reference.com**. This project applies machine learning to:
+NBA provides rich historical statistics for players and teams. We can obtain dataset from the **website basketball-reference.com**. 
+
+This project applies machine learning to:
 - detect **outlier players** (both exceptional and poor performers) and then identify the **truly outstanding** group, and
 - predict **win/loss outcomes** from match-level and team-level features.  
 
