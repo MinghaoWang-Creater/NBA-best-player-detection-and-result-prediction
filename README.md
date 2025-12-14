@@ -1,5 +1,6 @@
 # NBA-best-player-detection-and-result-prediction
 NBA best player detection and result prediction
+Please refer to the project report for detailed experimental principles and results.
 
 # Contributors：
 
@@ -48,7 +49,7 @@ Important data handling:
 
 ### Methods
 **Outlier detection**
-- LOF (Local Outlier Factor) and Isolation Forest are both used to detect outliers. 
+- LOF (Local Outlier Factor) is used to detect outliers. 
 
 **Outlier clustering**
 - Outliers contain both “very good” and “very bad” players, so **K-Means** is applied to outliers.
@@ -57,18 +58,15 @@ Important data handling:
 - The “outstanding” cluster is selected as the cluster with the **highest average points/game**, and results from regular season & playoffs are merged; the intersection identifies players who are exceptional in both contexts.
 
 ### Notes on Results
-- With the same outlier ratio, Isolation Forest finds **more** outliers than LOF (stricter definition) and its outstanding-player set includes LOF’s results. 
-- LOF is **faster**, while Isolation Forest is **more reasonable** for this project according to the report. 
 - The outlier ratio parameter was tested at 0.1 and 0.2 to adjust strictness. 
 
 ---
 ### Outputs:
+<img width="865" height="211" alt="image" src="https://github.com/user-attachments/assets/ba23d94c-0635-429e-b877-a3f424216a43" />
 
-<img width="1403" height="139" alt="image" src="https://github.com/user-attachments/assets/aa88d1e6-a0d4-4d6e-a113-ee58a5199962" />
+<img width="636" height="658" alt="聚类1" src="https://github.com/user-attachments/assets/7ddc1146-b3e9-4590-a56b-edc52a99da97" />
 
-<img width="644" height="665" alt="image" src="https://github.com/user-attachments/assets/3fc70c13-658f-4d76-a596-7b53415dd471" />
-
-<img width="858" height="554" alt="image" src="https://github.com/user-attachments/assets/11463d15-3eb0-46d2-86a8-eea6b04f7ede" />
+<img width="844" height="547" alt="聚类2" src="https://github.com/user-attachments/assets/62454332-ae3d-4054-a790-836582bfa28b" />
 
 
 
