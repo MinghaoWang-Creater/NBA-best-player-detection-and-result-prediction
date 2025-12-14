@@ -1,5 +1,6 @@
 # NBA-best-player-detection-and-result-prediction
-NBA best player detection and result prediction
+NBA best player detection and result prediction.
+
 Please refer to the project report for detailed experimental principles and results.
 
 # Contributors：
